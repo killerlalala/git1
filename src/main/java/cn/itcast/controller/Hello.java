@@ -10,6 +10,9 @@ public class Hello {
     @RequestMapping(path = "/hello")
     public String say(){
         System.out.println("hello world");
+
+
+        System.out.println("lalala");
         return "success";
     }
 
